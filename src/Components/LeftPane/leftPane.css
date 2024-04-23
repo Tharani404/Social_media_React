@@ -1,0 +1,23 @@
+.leftPainBox{
+    flex: 2;
+}
+
+.leftContainer{
+    padding: 20px;
+}
+
+.leftMenue{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftMenueItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.letMenuIcon{
+    margin-right: 20px
+}

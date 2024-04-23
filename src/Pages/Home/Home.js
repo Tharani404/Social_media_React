@@ -3,14 +3,18 @@ import NavBar from '../../Components/NavigationBar/NavBar'
 import LeftPane from '../../Components/LeftPane/LeftPane'
 import RightPane from '../../Components/RightPane/RightPane'
 import PostPane from '../../Components/PostPane/PostPane'
+import './home.css'
 
 export default function Home() {
   return (
-    <div>
-        <NavBar/>
+    <>
+    <NavBar/>
+    <div className='bottomContainer'>
+        
         <LeftPane/>
-        <RightPane/>
         <PostPane/>
+        <RightPane/>
     </div>
+    </>
   )
 }
