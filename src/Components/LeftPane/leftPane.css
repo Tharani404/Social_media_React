@@ -1,5 +1,19 @@
 .leftPainBox{
     flex: 2;
+    height: calc(100vh - 50px); /*add scroll bar*/
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{ /*scroll bar width*/
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{ /*scroll bar track*/
+    background-color: rgb(169, 173, 176);
+}
+
+::-webkit-scrollbar-thumb{ /*moving track*/
+    background-color: rgb(141, 141, 141);
 }
 
 .leftContainer{
@@ -21,3 +35,34 @@
 .letMenuIcon{
     margin-right: 20px
 }
+
+.pageImage{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.pagesYouLiked{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(87, 84, 84);
+}
+
+.pageList{
+    padding: 0;
+    margin: 0;
+}
+
+.pageListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.pageName{
+    margin-left: 10px;
+
+}
+

@@ -56,6 +56,36 @@ export default function LeftPane() {
             <AddShoppingCartIcon className='letMenuIcon'/>
             <span className="leftMenuText">Market</span>
           </li>
+          <hr/>
+          <div className="pagesYouLiked">
+            <h3>Pages You Liked</h3>
+          </div>
+          <div className="pageList">
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          <li className="pageListItem">
+            <img src="/images/1.jpg" alt="" className="pageImage" />
+            <span className="pageName">Tharani Jayathilake</span>
+          </li>
+          </div>
         </div>
       </div>
     </div>
