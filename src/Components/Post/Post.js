@@ -12,11 +12,16 @@ export default function Post() {
             </div>
 
             <div className="postCenter">
-
+              <div className="postCaption">
+                Helo I am Tharani..! You understand..
+              </div>
+              <img src="/Images/1.jpg" alt="" className="postedImage" />
             </div>
 
             <div className="postBottom">
-
+              <div className="postBottomLeft">
+                
+              </div>
             </div>
         </div>
     </div>
