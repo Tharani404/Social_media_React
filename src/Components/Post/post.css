@@ -5,6 +5,15 @@
     object-fit: cover;  
 }
 
+.post{
+    font-family: sans-serif;
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.45); 
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.45);
+    margin: 30px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
 .postTop{
     margin-top: 10px;
     display: flex;
@@ -12,7 +21,18 @@
 }
 
 .postUserName{
-    font-size: 32px;
+    font-size: 15px;
     font-weight: 500;
     margin: 0 10px;
+}
+
+.postTime{
+    font-size: 10px;
+}
+
+.postedImage{
+    width: 98%;
+    background-size: cover;
+    margin-left: 5px;
+    margin-top: 5px;
 }
