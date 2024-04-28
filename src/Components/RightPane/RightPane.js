@@ -15,8 +15,65 @@ export default function RightPane() {
         <div className="birthdayCotainer">
           <img src="/images/gift.jpg" alt="" className="birthdayImage" />
           <span className="birthdayText">
-            Pavithra Jayahilake and 2 others having birthday today..!
+            <b>Pavithra Jayahilake</b> and <b>2 others</b> having birthday today..!
             </span>
+        </div>
+        <div className="friendList">
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
+
+          <li className="onlineFriend">
+            <div className="onlineFriendImageContainer">
+              <img src="/images/online.jpg" alt="" className="onlineFriendImage" />
+              <span className="onlineStatus"></span>
+            </div>
+            <span className="onlineFriendName">Mickey mouse</span>
+          </li>
         </div>
       </div>  
     </div>
