@@ -12,12 +12,27 @@
     margin: 30px 0;
     margin-left: 10px;
     border-radius: 10px;
+    width: 90%;
 }
 
 .postTop{
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
+}
+
+.postCenter{
+    margin-left: 0px;
+}
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.postCaption{
+    margin-left: 10px;
 }
 
 .postUserName{
@@ -35,4 +50,35 @@
     background-size: cover;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+.reactionPic{
+    width: 24px;
+    height: 24px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.postBottom{
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.likeCount{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.commentCount{
+    margin-right: 10px;
+    border-bottom: 1px dashed gray;
+    cursor: pointer;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
 }
