@@ -1,5 +1,10 @@
 .rightPaneBox{
     flex: 3;
+    font-family: sans-serif;
+    height: calc(100vh - 50px); /*add scroll bar*/
+    overflow: scroll;
+    position: sticky;
+    top: 50px;
 }
 
 .rightPaneContainer{
@@ -77,4 +82,9 @@
 .onlineFriendName{
     margin-left: 10px;
 
+}
+
+.birthdayText{
+    margin-top: 20px;
+    margin-left: 10px;
 }
